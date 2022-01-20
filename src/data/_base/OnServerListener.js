@@ -1,6 +1,6 @@
 export interface OnServerListener {
-    success: boolean;
-    code: string;
-    message: string;
-    data: any;
+    boolean;
+    string;
+    string;
+    any;
 }
