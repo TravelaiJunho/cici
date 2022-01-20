@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.guhungry.android:photo-manipulator:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/22eb3bdd8128192e09de84179e2d1c67/transformed/jetified-photo-manipulator-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22eb3bdd8128192e09de84179e2d1c67/transformed/jetified-photo-manipulator-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22eb3bdd8128192e09de84179e2d1c67/transformed/jetified-photo-manipulator-1.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.guhungry.android/photo-manipulator/1.0.4/2640bfb3cf2981a9affd727414f342cf878f5e88/photo-manipulator-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.guhungry.android/photo-manipulator/1.0.4/4b152a4c3b8d9365451889c65df461dc168ad655/photo-manipulator-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

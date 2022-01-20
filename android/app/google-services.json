@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "28355756107",
+    "project_id": "konnectent7459",
+    "storage_bucket": "konnectent7459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28355756107:android:84afe6742656a4a4ebcdce",
+        "android_client_info": {
+          "package_name": "com.konnectent.kd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28355756107-b366j9bstt4eelii3omf3d8mhjk6ses3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk0vJzYpuAPuqDbrs-I6Bs6CqfDErliHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28355756107-b366j9bstt4eelii3omf3d8mhjk6ses3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "28355756107-6qqtulknpjrjjivqnfma78jscvskfu77.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.konnectent.kd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

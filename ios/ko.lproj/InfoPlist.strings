@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  kd
+
+  Created by 공범식 on 2021/03/16.
+  
+*/
+
+"NSCameraUsageDescription" = "게시글과 프로필에 사진을 등록하기 위해 카메라 접근이 필요합니다.";
+"NSPhotoLibraryUsageDescription" = "게시글과 프로필에 사진을 등록하기 위해 사진앨범 접근이 필요합니다.";

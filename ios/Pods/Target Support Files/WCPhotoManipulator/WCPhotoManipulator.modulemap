@@ -1,0 +1,6 @@
+module WCPhotoManipulator {
+  umbrella header "WCPhotoManipulator-umbrella.h"
+
+  export *
+  module * { export * }
+}

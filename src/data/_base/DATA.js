@@ -1,0 +1,15 @@
+////////////////////////////////////////
+// API
+////////////////////////////////////////
+
+const DATA_GENDER = {
+    WOMEN: 'W',
+    MEN: 'M'
+};
+
+const DATE_FORMAT_DATE = 'YYYY-MM-DD'; // Moment
+
+////////////////////////////////////////
+export {
+    DATA_GENDER, DATE_FORMAT_DATE
+}

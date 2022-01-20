@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KANGDANIEL</string>
+    <string name="game_view_content_description">Game view</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">Og4sTYq2FhTl1tIGocC76Bvi7O_5r96obdhcG</string>
+</resources>

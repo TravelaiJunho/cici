@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/UnityExport" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../node_modules/@lowkey/react-native-gif/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-async-storage/async-storage/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-clipboard/clipboard/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-community/cameraroll/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-community/masked-view/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-community/netinfo/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-code-push/android/app" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-date-picker/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-device-info/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-fast-image/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-fs/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-image-crop-tools/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-localization/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-localize/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-navigation-bar-color/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-orientation-locker/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-permissions/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-photo-manipulator/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-push-notification/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-reanimated/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-restart/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-safe-area-context/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-screens/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-version-check/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-video/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-webview/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-youtube/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-zip-archive/android" />
+            <option value="$PROJECT_DIR$/../node_modules/rn-write-settings/android" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

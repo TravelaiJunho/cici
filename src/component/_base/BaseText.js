@@ -1,0 +1,35 @@
+////////////////////////////////////////
+// IMPORT
+////////////////////////////////////////
+
+import React from "react";
+import {Text} from "react-native";
+////////////////////
+// Local
+import BaseComponent from "./BaseComponent";
+
+////////////////////////////////////////
+// CLASS
+////////////////////////////////////////
+/**
+ * RN Text 를 Wrapping 한 Class
+ * @extends {BaseComponent}
+ */
+class BaseText extends BaseComponent {
+
+    ////////////////////
+    // RENDER
+    /**
+     *
+     * @returns {JSX.Element}
+     */
+    render() {
+        return <Text {...this.props}/>
+    }
+}
+
+////////////////////////////////////////
+// EXPORT
+////////////////////////////////////////
+
+export default BaseText;

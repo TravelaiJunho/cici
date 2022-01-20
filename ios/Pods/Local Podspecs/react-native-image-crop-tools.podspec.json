@@ -1,0 +1,28 @@
+{
+  "name": "react-native-image-crop-tools",
+  "version": "1.5.0",
+  "summary": "Native image crop tools with embeddable UI and on the fly aspect ratio switchin",
+  "description": "react-native-image-crop-tools",
+  "homepage": "https://github.com/hhunaid/react-native-image-crop-tools",
+  "license": "MIT",
+  "authors": {
+    "Hunaid Hassan": "hhunaid@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/hhunaid/react-native-image-crop-tools.git",
+    "tag": "1.5.0"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ],
+    "TOCropViewController": [
+      "2.5.3"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kd.iml" filepath="$PROJECT_DIR$/.idea/modules/kd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UnityExport/kd.UnityExport.iml" filepath="$PROJECT_DIR$/.idea/modules/UnityExport/kd.UnityExport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/kd.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/kd.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/957977672/kd.lowkey_react-native-gif.iml" filepath="$PROJECT_DIR$/.idea/modules/957977672/kd.lowkey_react-native-gif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1734745333/kd.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1734745333/kd.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1722972595/kd.react-native-clipboard_clipboard.iml" filepath="$PROJECT_DIR$/.idea/modules/-1722972595/kd.react-native-clipboard_clipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/978400588/kd.react-native-code-push.iml" filepath="$PROJECT_DIR$/.idea/modules/978400588/kd.react-native-code-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2057991976/kd.react-native-community_cameraroll.iml" filepath="$PROJECT_DIR$/.idea/modules/-2057991976/kd.react-native-community_cameraroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1164350607/kd.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1164350607/kd.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/868667797/kd.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/868667797/kd.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/436880461/kd.react-native-date-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/436880461/kd.react-native-date-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-783526267/kd.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-783526267/kd.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-847662166/kd.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/-847662166/kd.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1795992781/kd.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/1795992781/kd.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-140712314/kd.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-140712314/kd.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-165155399/kd.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-165155399/kd.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/483503376/kd.react-native-image-crop-tools.iml" filepath="$PROJECT_DIR$/.idea/modules/483503376/kd.react-native-image-crop-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/479238808/kd.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/479238808/kd.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-749841767/kd.react-native-localization.iml" filepath="$PROJECT_DIR$/.idea/modules/-749841767/kd.react-native-localization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/195815945/kd.react-native-localize.iml" filepath="$PROJECT_DIR$/.idea/modules/195815945/kd.react-native-localize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-684626512/kd.react-native-navigation-bar-color.iml" filepath="$PROJECT_DIR$/.idea/modules/-684626512/kd.react-native-navigation-bar-color.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/631010741/kd.react-native-orientation-locker.iml" filepath="$PROJECT_DIR$/.idea/modules/631010741/kd.react-native-orientation-locker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-297521596/kd.react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-297521596/kd.react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-116536493/kd.react-native-photo-manipulator.iml" filepath="$PROJECT_DIR$/.idea/modules/-116536493/kd.react-native-photo-manipulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1870524542/kd.react-native-push-notification.iml" filepath="$PROJECT_DIR$/.idea/modules/1870524542/kd.react-native-push-notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/761740246/kd.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/761740246/kd.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1322300209/kd.react-native-restart.iml" filepath="$PROJECT_DIR$/.idea/modules/-1322300209/kd.react-native-restart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1429179025/kd.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1429179025/kd.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-745798585/kd.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-745798585/kd.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-646577582/kd.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-646577582/kd.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/285224720/kd.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/285224720/kd.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-811108717/kd.react-native-version-check.iml" filepath="$PROJECT_DIR$/.idea/modules/-811108717/kd.react-native-version-check.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1160294203/kd.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/1160294203/kd.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1486856007/kd.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-1486856007/kd.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2094823965/kd.react-native-youtube.iml" filepath="$PROJECT_DIR$/.idea/modules/-2094823965/kd.react-native-youtube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1811837398/kd.react-native-zip-archive.iml" filepath="$PROJECT_DIR$/.idea/modules/1811837398/kd.react-native-zip-archive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-329965478/kd.rn-write-settings.iml" filepath="$PROJECT_DIR$/.idea/modules/-329965478/kd.rn-write-settings.iml" />
+    </modules>
+  </component>
+</project>

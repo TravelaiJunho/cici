@@ -1,0 +1,6 @@
+module Pods_kd {
+  umbrella header "Pods-kd-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "react-native-photo-manipulator",
+  "version": "1.2.4",
+  "summary": "Image processing library to edit photo programmatically in React Native",
+  "license": "MIT",
+  "authors": "Woraphot Chokratanasombat <guhungry@gmail.com>",
+  "homepage": "https://github.com/guhungry/react-native-photo-manipulator#readme",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/guhungry/react-native-photo-manipulator.git",
+    "tag": "1.2.4"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "exclude_files": "ios/Vendor/**/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ],
+    "WCPhotoManipulator": [
+      "~> 2.0.4"
+    ]
+  }
+}

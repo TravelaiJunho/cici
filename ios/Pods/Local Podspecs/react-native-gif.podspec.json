@@ -1,0 +1,24 @@
+{
+  "name": "react-native-gif",
+  "version": "2.2.2",
+  "summary": "Performant react-native component for GIF",
+  "homepage": "https://github.com/max-prokopenko/react-native-gif#readme",
+  "license": "MIT",
+  "authors": "Max Prokopenko <max.prokopenko@hotmail.com> (https://github.com/max-prokopenko)",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/max-prokopenko/react-native-gif.git",
+    "tag": "2.2.2"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "FLAnimatedImage": [
+      "~> 1.0"
+    ]
+  }
+}
