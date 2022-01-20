@@ -16,6 +16,10 @@ const IMAGE_MISSION_R = require('./image/missionR.png');
 const IMAGE_YOUTUBE = require('./image/youtube.png');
 const IMAGE_CANCEL = require('./image/cancelCircle.png');
 
+// CICI
+const SUB_LOGO = require('./cici/subLogoKdFont.png');
+const SUB_ACCOUNT = require('./cici/iconPic.png');
+
 
 ////////////////////////////////////////
 
@@ -35,4 +39,7 @@ export {
     IMAGE_MISSION,
     IMAGE_MISSION_R,
     IMAGE_CANCEL,
+    //cici
+    SUB_LOGO,
+    SUB_ACCOUNT,
 }
