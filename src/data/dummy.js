@@ -7,9 +7,9 @@ const Dummy_Home = {
     {
       type: "notice",
       user: {
-        imageUrl: "",
+        imageUrl: require("../../assets/cici/reactnative.png"),
         garde: 1,
-        name: "",
+        name: "fs",
       },
       media: [
         { url: "", name: "itda_뉴스", type: "img" },
@@ -28,22 +28,6 @@ const Dummy_Home = {
       media: [
         { url: "", name: "itda_뉴스", type: "img" },
         { url: "", name: "itda_뉴스", type: "mov" },
-      ],
-    },
-    {
-      type: "membership",
-      create_time: "",
-      news_title: "",
-      news_contents: "",
-      from_creator: [
-        {
-          imageUrl: "",
-          user: {
-            imageUrl: "",
-            garde: 1,
-            name: "",
-          },
-        },
       ],
     },
   ],
