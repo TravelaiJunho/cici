@@ -1,3 +1,5 @@
+import { IMAGE_MEMBER_MANAGER } from "../../assets";
+
 const Dummy_Home = {
   myAccount: {
     imageUrl:
@@ -7,14 +9,14 @@ const Dummy_Home = {
     {
       type: "notice",
       user: {
-        imageUrl: require("../../assets/cici/reactnative.png"),
-        garde: 1,
+        url: IMAGE_MEMBER_MANAGER,
+        grade: 1,
         name: "fs",
       },
+
       media: [
         { url: "", name: "itda_뉴스", type: "img" },
-        { url: "", name: "itda_뉴스", type: "noaction" },
-        { url: "", name: "itda_뉴스", type: "mov" },
+        { url: "", name: "itda_뉴스", type: "ds" },
       ],
     },
     {
