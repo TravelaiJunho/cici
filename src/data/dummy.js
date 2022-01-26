@@ -9,9 +9,11 @@ const Dummy_Home = {
     {
       type: "notice",
       user: {
-        url: IMAGE_MEMBER_MANAGER,
+        url: require("../../assets/cici/subTagMemberManager.png"),
         grade: 1,
         name: "fs",
+        imageUrl:
+          "https://image.fnnews.com/resource/media/image/2021/03/15/202103151426153256_l.jpg",
       },
 
       media: [

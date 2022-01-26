@@ -1,61 +1,43 @@
 import React, { useEffect, useState } from "react";
 import { Image, StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import common from "../../util/Common";
 import Common from "../../util/Common";
+
 import { SUB_ACCOUNT, SUB_ICON_DOTS, SUB_ICON_SINGLE_R } from "../../../assets";
 import CircleBorderImage from "../../component/image/CircleBorderImage";
-import Community from "../../screen/community/Community";
+import FullWidthImage from "../../component/image/FullWidthImage";
+import BaseImage from "../../component/_base/BaseImage";
 
 function Notice({ item }) {
-  const [errorImage, setErrorImage] = useState(
-    common.isEmpty(item.user.imageUrl)
-  );
-
-  useEffect(() => {
-    setErrorImage(Common.isEmpty(item.user.imageUrl));
-  });
-
   return (
     <View style={styles.wireFeedNews}>
       <View style={styles.wireFeedNickAdmin}>
-        {errorImage ? (
-          <View style={{ flexDirection: "row" }}>
-            <View style={styles.ovalCopy6}>
-              <Image source={item.user.url} style={{ width: 10, height: 10 }} />
-              {/*<CircleBorderImage*/}
-              {/*  userGrade={item.user.garde}*/}
-              {/*  source={item.user.url}*/}
-              {/*/>*/}
-            </View>
-            <View
-              style={{
-                flexDirection: "column",
-                marginTop: 3.6,
-                marginLeft: 10,
-              }}
-            >
-              <Text>{item.media[0].name}</Text>
-              <Text style={styles.date}>10분 전</Text>
-            </View>
-          </View>
-        ) : (
-          <View style={styles.ovalCopy6}>
-            <Image
-              style={{ width: 18, height: 18, marginLeft: 10, marginTop: 5 }}
-              source={SUB_ACCOUNT}
+        <View style={{ flexDirection: "row" }}>
+          <View style={{ marginLeft: 10 }}>
+            <CircleBorderImage
+              size={32}
+              borderWidth={2}
+              userGrade={5}
+              source={item.user.url}
+              gradeSize={14}
+              emptyImage={item.user.imageUrl}
             />
           </View>
-        )}
-        {/*<View*/}
-        {/*  style={{ flexDirection: "column", marginLeft: 10, marginTop: 3.6 }}*/}
-        {/*>*/}
-        {/*  <Text>{item.media[0].name}</Text>*/}
-        {/*  <Text style={styles.date}>10분 전</Text>*/}
-        {/*</View>*/}
+          <View
+            style={{
+              flexDirection: "column",
+              marginTop: 3.6,
+              marginLeft: 10,
+            }}
+          >
+            <Text>{item.media[0].name}</Text>
+            <Text style={styles.date}>10분 전</Text>
+          </View>
+        </View>
+
         <Image source={SUB_ICON_DOTS} />
       </View>
       <View style={styles.rectangle}>
-        <Image source={SUB_ACCOUNT} />
+        <BaseImage emptyImage={item.user.imageUrl} />
       </View>
       <View style={styles.rectangleCloser}>
         <Text
@@ -104,16 +86,6 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
 
-  ovalCopy5: {
-    marginTop: 16,
-    marginLeft: 14,
-    width: 43,
-    height: 43,
-    borderStyle: "solid",
-    borderWidth: 1.6,
-    borderRadius: 50,
-    borderColor: "rgb(13, 219, 209)",
-  },
   ovalCopy6: {
     marginLeft: 14,
     width: 43,
@@ -122,7 +94,8 @@ const styles = StyleSheet.create({
     borderWidth: 1.6,
     backgroundColor: "grey",
     borderRadius: 50,
-    borderColor: "rgb(13, 219, 209)",
+    justifyContent: "center",
+    alignItems: "center",
   },
   rectangle: {
     height: 375,

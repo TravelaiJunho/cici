@@ -21,7 +21,8 @@ const SUB_LOGO = require("./cici/subLogoKdFont.png");
 const SUB_ACCOUNT = require("./cici/iconPic.png");
 const SUB_ICON_DOTS = require("./cici/iconMoreDotsVOn.png");
 const SUB_ICON_SINGLE_R = require("./cici/iconSignR.png");
-
+const USER =
+  "https://image.fnnews.com/resource/media/image/2021/03/15/202103151426153256_l.jpg";
 ////////////////////////////////////////
 
 export {
@@ -45,4 +46,5 @@ export {
   SUB_ACCOUNT,
   SUB_ICON_DOTS,
   SUB_ICON_SINGLE_R,
+  USER,
 };
