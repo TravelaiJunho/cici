@@ -27,6 +27,7 @@ function BaseImage({ emptyImage }) {
   useEffect(() => {
     setErrorImage(Common.isEmpty(emptyImage));
   }, [emptyImage]);
+  // alert(emptyImage);
   ////////////////////
   // RENDER
   /**
@@ -34,11 +35,10 @@ function BaseImage({ emptyImage }) {
    * @returns {JSX.Element}
    */
   // return <Image {...this.props}/>
-  if (errorImage == null) {
-    // alert(BaseImage.emptyImage);
-    return <Image source={SUB_ACCOUNT} />;
+  if (Common.isEmpty(errorImage)) {
+    return <Image source={emptyImage} />;
   } else {
-    return <FastImage source={errorImage} />;
+    return <Image source={SUB_ACCOUNT} />;
   }
 }
 

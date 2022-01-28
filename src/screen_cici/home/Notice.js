@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Image, StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import Common from "../../util/Common";
 
-import { SUB_ACCOUNT, SUB_ICON_DOTS, SUB_ICON_SINGLE_R } from "../../../assets";
+import { SUB_ICON_DOTS, SUB_ICON_SINGLE_R } from "../../../assets";
 import CircleBorderImage from "../../component/image/CircleBorderImage";
-import FullWidthImage from "../../component/image/FullWidthImage";
 import BaseImage from "../../component/_base/BaseImage";
 
 function Notice({ item }) {
@@ -15,10 +14,11 @@ function Notice({ item }) {
           <View style={{ marginLeft: 10 }}>
             <CircleBorderImage
               size={32}
-              borderWidth={2}
-              userGrade={5}
-              source={item.user.url}
               gradeSize={14}
+              // gradeRight={0}
+              borderWidth={4}
+              userGrade={item.user.grade}
+              source={item.user.url}
               emptyImage={item.user.imageUrl}
             />
           </View>
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   },
   invalidNameTitle: {
     height: 50,
-    fontFamily: "NanumSquareOTFEB",
+    // fontFamily: "NanumSquareOTFEB",
     fontSize: 16,
     fontWeight: "normal",
     fontStyle: "normal",
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   date: {
     width: 40,
     height: 13,
-    fontFamily: "NanumSquareOTFR",
+    // fontFamily: "NanumSquareOTFR",
     fontSize: 12,
     fontWeight: "normal",
     fontStyle: "normal",

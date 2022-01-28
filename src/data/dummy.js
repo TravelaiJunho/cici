@@ -10,7 +10,7 @@ const Dummy_Home = {
       type: "notice",
       user: {
         url: require("../../assets/cici/subTagMemberManager.png"),
-        grade: 1,
+        grade: 3,
         name: "fs",
         imageUrl:
           "https://image.fnnews.com/resource/media/image/2021/03/15/202103151426153256_l.jpg",
