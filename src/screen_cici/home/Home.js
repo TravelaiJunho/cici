@@ -15,7 +15,7 @@ import { Dummy_Home } from "@data/dummy";
 import Notice from "./Notice";
 import Community from "./Community";
 
-function Home() {
+function Home({ navigation }) {
   const [isShowLoader, setIsShowLoader] = useState(false);
 
   const [data, setData] = useState(null);
@@ -48,6 +48,7 @@ function Home() {
         onLogoPress={null}
         onAcountPress={null}
         alram={true}
+        navigation={navigation}
       />
       <FlatList data={data?.list} renderItem={renderItem} />
     </View>

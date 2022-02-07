@@ -1,18 +1,29 @@
 import React, { useEffect, useState } from "react";
-import { Pressable, StyleSheet, View, Image, Text } from "react-native";
+import {
+  Pressable,
+  StyleSheet,
+  View,
+  Image,
+  Text,
+  TouchableOpacity,
+} from "react-native";
 import BaseHeader from "../../component/header/_base/BaseHeader";
 import { SUB_LOGO, SUB_ACCOUNT } from "../../../assets";
 import BaseImage from "../../component/_base/BaseImage";
 import Common from "../../util/Common";
-import FastImage from "react-native-fast-image";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import MyPage from "./MyPage";
 function HomeHeader({
   accountImage,
   onAcountPress,
   onLogoPress,
   alram = true,
+  navigation,
 }) {
   // state
   const [errorImage, setErrorImage] = useState(Common.isEmpty(accountImage));
+  const Stack = createStackNavigator();
 
   useEffect(() => {
     setErrorImage(Common.isEmpty(accountImage));
@@ -24,7 +35,9 @@ function HomeHeader({
         <Pressable onPress={onLogoPress}>
           <Image source={SUB_LOGO} />
         </Pressable>
-        <Pressable onPress={onAcountPress}>
+        {/*<Pressable onPress={onAcountPress}>*/}
+
+        <TouchableOpacity onPress={() => navigation.navigate("MyPage")}>
           {errorImage ? (
             <View
               style={{
@@ -73,7 +86,7 @@ function HomeHeader({
               ]}
             />
           )}
-        </Pressable>
+        </TouchableOpacity>
       </View>
     </BaseHeader>
   );
